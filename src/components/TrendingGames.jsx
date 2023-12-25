@@ -12,9 +12,9 @@ import { FaFire } from "react-icons/fa";
 const GameCardData = [
   {
     id: 1,
-    title: "PUBG",
+    title: "Freedom Fighters",
     image: Game1,
-    followers: 35,
+    followers: 100,
   },
   {
     id: 2,
@@ -24,15 +24,15 @@ const GameCardData = [
   },
   {
     id: 3,
-    title: "Game Title2",
+    title: "Assassin's Creed Origins",
     image: Game3,
-    followers: 35,
+    followers: 555,
   },
   {
     id: 4,
-    title: "PUBG",
+    title: "Freedom Fighters",
     image: Game1,
-    followers: 35,
+    followers: 100,
   },
   {
     id: 5,
@@ -42,9 +42,9 @@ const GameCardData = [
   },
   {
     id: 6,
-    title: "Game Title5",
+    title: "Assassin's Creed Origins",
     image: Game3,
-    followers: 55,
+    followers: 555,
   },
 ];
 
@@ -69,16 +69,25 @@ const TrendingGames = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-4 mt-8">
               {/* Games Cards */}
               {GameCardData.map((game) => (
-                <div key={game.id} className="">
-                  <img className="" src={game.image} alt={game.title} />
-                  <p className="">{game.title} </p>
-                  {/* <p className=""> */}
-                  <p className="flex items-center gap-1">
-                    <FaFire />
-                    {game.followers}{" "}
-                    <span className="text-tertiary">followers</span>{" "}
-                  </p>
-                  {/* </p> */}
+                <div
+                  key={game.id}
+                  className="bg-gray-600/20 rounded-lg text-center"
+                >
+                  <img
+                    className="w-full h-[200px] object-contain pt-2 "
+                    src={game.image}
+                    alt={game.title}
+                  />
+                  <div className="">
+                    <p className="">{game.title} </p>
+                    {/* <p className=""> */}
+                    <p className="flex items-center gap-1 justify-center">
+                      <FaFire />
+                      {game.followers}{" "}
+                      <span className="text-tertiary">followers</span>{" "}
+                    </p>
+                    {/* </p> */}
+                  </div>
                 </div>
               ))}
             </div>
