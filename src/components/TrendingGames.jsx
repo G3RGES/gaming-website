@@ -6,6 +6,9 @@ import Game1 from "../assets/game/game1.jpg";
 import Game2 from "../assets/game/game2.jpg";
 import Game3 from "../assets/game/game3.jpg";
 
+// icons
+import { FaFire } from "react-icons/fa";
+
 const GameCardData = [
   {
     id: 1,
@@ -68,6 +71,14 @@ const TrendingGames = () => {
               {GameCardData.map((game) => (
                 <div key={game.id} className="">
                   <img className="" src={game.image} alt={game.title} />
+                  <p className="">{game.title} </p>
+                  {/* <p className=""> */}
+                  <p className="flex items-center gap-1">
+                    <FaFire />
+                    {game.followers}{" "}
+                    <span className="text-tertiary">followers</span>{" "}
+                  </p>
+                  {/* </p> */}
                 </div>
               ))}
             </div>
