@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrendingGames from "./components/TrendingGames";
+import RecomendedGames from "./components/RecomendedGames";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <TrendingGames />
+        <RecomendedGames />
       </div>
     </>
   );
