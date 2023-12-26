@@ -3,7 +3,7 @@ import React from "react";
 
 // games
 import Game1 from "../assets/game/game1.jpg";
-import Game2 from "../assets/game/game2.jpg";
+import Game2 from "../assets/game/game4.jpg";
 import Game3 from "../assets/game/game3.jpg";
 
 // icons
@@ -14,13 +14,13 @@ const GameCardData = [
     id: 1,
     title: "Freedom Fighters",
     image: Game1,
-    followers: 100,
+    followers: 150,
   },
   {
     id: 2,
-    title: "Resident Evil 4",
+    title: "Witcher 3",
     image: Game2,
-    followers: 135,
+    followers: 535,
   },
   {
     id: 3,
@@ -32,13 +32,13 @@ const GameCardData = [
     id: 4,
     title: "Freedom Fighters",
     image: Game1,
-    followers: 100,
+    followers: 150,
   },
   {
     id: 5,
-    title: "Resident Evil 4",
+    title: "Witcher 3",
     image: Game2,
-    followers: 135,
+    followers: 535,
   },
   {
     id: 6,
