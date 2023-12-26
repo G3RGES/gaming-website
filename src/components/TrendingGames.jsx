@@ -5,6 +5,7 @@ import React from "react";
 import Game1 from "../assets/game/game1.jpg";
 import Game2 from "../assets/game/game4.jpg";
 import Game3 from "../assets/game/game3.jpg";
+import Character1 from "../assets/characters/character1.png";
 
 // icons
 import { FaFire } from "react-icons/fa";
@@ -52,10 +53,12 @@ const TrendingGames = () => {
   return (
     <>
       <section className="py-10 bg-primary text-white">
-        <div className="container">
+        <div className="container relative">
           {/* Header Section */}
           <div className="flex flex-row justify-between items-center px-3">
-            <h1 className=" font-bold text-2xl">Currently Trending Games</h1>
+            <h1 className=" font-bold text-2xl z-20">
+              Currently Trending Games
+            </h1>
             <button
               className="bg-gray-400/50 text-white
              rounded-xl py-3 px-4 font-semibold"
@@ -65,13 +68,13 @@ const TrendingGames = () => {
           </div>
 
           {/* Games Section */}
-          <div className="">
-            <div className="grid grid-cols-1 md:grid-cols-6 gap-4 mt-8">
+          <div className="relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-6 gap-4 mt-8 ">
               {/* Games Cards */}
               {GameCardData.map((game) => (
                 <div
                   key={game.id}
-                  className="bg-gray-600/20 rounded-lg text-center"
+                  className="bg-gray-600/20 rounded-lg text-center "
                 >
                   <img
                     className="w-full h-[200px] object-contain pt-2 "
@@ -92,6 +95,13 @@ const TrendingGames = () => {
               ))}
             </div>
           </div>
+
+          {/* character png */}
+          <img
+            className="absolute top-0 left-[-7%] h-[340px] w-[] z-[9] overflow-y-hidden"
+            src={Character1}
+            alt="character_png"
+          />
         </div>
       </section>
     </>
