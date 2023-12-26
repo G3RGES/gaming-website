@@ -3,6 +3,39 @@ import React from "react";
 
 // games
 import Character2 from "../assets/characters/character2.png";
+import Game3 from "../assets/game/game3.jpg";
+import Game4 from "../assets/game/game4.jpg";
+import Game5 from "../assets/game/game5.jpg";
+import Hero1 from "../assets/hero/hero1.jpg";
+import Hero2 from "../assets/hero/hero2.jpg";
+import Hero3 from "../assets/hero/hero3.jpg";
+import Hero4 from "../assets/hero/hero4.jpg";
+import Hero5 from "../assets/hero/hero5.jpg";
+
+const game1Cover = {
+  backgroundImage: `url(${Hero4})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  width: "100%",
+  height: "350px",
+};
+const game2Cover = {
+  backgroundImage: `url(${Hero1})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  width: "100%",
+  height: "100%",
+};
+const game3Cover = {
+  backgroundImage: `url(${Hero5})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  width: "100%",
+  height: "100%",
+};
 
 const RecomendedGames = () => {
   return (
@@ -20,6 +53,26 @@ const RecomendedGames = () => {
             </button>
           </div>
           {/* Games Articles Grid */}
+          <div className="relative z-10">
+            <div
+              className="grid grid-cols-1 sm:grid-cols-3
+             sm:grid-rows-2 gap-4 mt-8"
+            >
+              <div
+                className="sm:row-span-2 sm:col-span-2 min-h-[300px]
+               rounded-lg "
+                style={game1Cover}
+              >
+                1
+              </div>
+              <div className="sm:row-span-1 rounded-lg" style={game2Cover}>
+                2
+              </div>
+              <div className="sm:row-span-1 rounded-lg" style={game3Cover}>
+                3
+              </div>
+            </div>
+          </div>
 
           {/* Character PNG */}
           <img
