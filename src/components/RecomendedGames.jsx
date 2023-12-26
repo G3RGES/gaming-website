@@ -75,6 +75,7 @@ const RecomendedGames = () => {
                 className="sm:row-span-1 rounded-lg relative"
                 style={game2Cover}
               >
+                {/*//*  image */}
                 <img
                   className="absolute left-0 bottom-0 h-[90px]  object-cover rounded-tr-md"
                   src={Game3}
@@ -84,6 +85,7 @@ const RecomendedGames = () => {
                 className="sm:row-span-1 rounded-lg relative"
                 style={game3Cover}
               >
+                {/*//*  image */}
                 <img
                   className="absolute left-0 bottom-0 h-[90px]  object-cover rounded-tr-md"
                   src={Game6}
@@ -93,6 +95,8 @@ const RecomendedGames = () => {
           </div>
 
           {/* Character PNG */}
+
+          {/*//*  image */}
           <img
             className="absolute top-0 right-[-3%] h-[340px] w-[] z-[9] "
             src={Character2}
