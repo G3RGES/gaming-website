@@ -2,10 +2,12 @@
 import React from "react";
 
 // games
+//* NOT ALL OF THEM ARE NEEDED BUT IMPORTED TO SEE WHICH FITS BEST
 import Character2 from "../assets/characters/character2.png";
 import Game3 from "../assets/game/game3.jpg";
 import Game4 from "../assets/game/game4.jpg";
 import Game5 from "../assets/game/game5.jpg";
+import Game6 from "../assets/game/game6.jpg";
 import Hero1 from "../assets/hero/hero1.jpg";
 import Hero2 from "../assets/hero/hero2.jpg";
 import Hero3 from "../assets/hero/hero3.jpg";
@@ -56,20 +58,35 @@ const RecomendedGames = () => {
           <div className="relative z-10">
             <div
               className="grid grid-cols-1 sm:grid-cols-3
-             sm:grid-rows-2 gap-4 mt-8"
+             sm:grid-rows-2 gap-4 mt-8 "
             >
               <div
                 className="sm:row-span-2 sm:col-span-2 min-h-[300px]
-               rounded-lg "
+               rounded-lg relative"
                 style={game1Cover}
               >
-                1
+                <img
+                  className="absolute left-0 bottom-0 h-[130px] w-[100px] object-cover rounded-tr-md"
+                  src={Game5}
+                />
               </div>
-              <div className="sm:row-span-1 rounded-lg" style={game2Cover}>
-                2
+              <div
+                className="sm:row-span-1 rounded-lg relative"
+                style={game2Cover}
+              >
+                <img
+                  className="absolute left-0 bottom-0 h-[90px]  object-cover rounded-tr-md"
+                  src={Game3}
+                />
               </div>
-              <div className="sm:row-span-1 rounded-lg" style={game3Cover}>
-                3
+              <div
+                className="sm:row-span-1 rounded-lg relative"
+                style={game3Cover}
+              >
+                <img
+                  className="absolute left-0 bottom-0 h-[90px]  object-cover rounded-tr-md"
+                  src={Game6}
+                />
               </div>
             </div>
           </div>
