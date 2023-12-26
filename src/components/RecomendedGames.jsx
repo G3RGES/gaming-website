@@ -66,7 +66,8 @@ const RecomendedGames = () => {
                 style={game1Cover}
               >
                 <img
-                  className="absolute left-0 bottom-0 h-[130px] w-[100px] object-cover rounded-tr-md"
+                  className="absolute left-0 bottom-0 h-[135px]
+                   w-[100px] object-cover rounded-tr-md"
                   src={Game5}
                 />
               </div>
