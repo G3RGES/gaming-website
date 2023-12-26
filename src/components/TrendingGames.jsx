@@ -98,7 +98,7 @@ const TrendingGames = () => {
 
           {/* character png */}
           <img
-            className="absolute top-0 left-[-7%] h-[340px] w-[] z-[9] overflow-y-hidden"
+            className="absolute top-0 left-[-7%] h-[340px] w-[] z-[9] "
             src={Character1}
             alt="character_png"
           />
