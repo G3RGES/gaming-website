@@ -19,8 +19,12 @@ const bgImage = {
 const Hero = () => {
   return (
     <>
-      <div className="min-h-[550px] flex  items-center" style={bgImage}>
-        <div className="bg-primary/60 min-h-[550px] w-screen flex items-center">
+      <div className="min-h-[550px]  overflow-hidden" style={bgImage}>
+        <div
+          className="bg-primary/80 bg-gradient-to-t 
+        from-primary from-10% to-transparent to-90%
+        flex items-center min-h-[550px]"
+        >
           <div className="container ">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
               {/* content */}
