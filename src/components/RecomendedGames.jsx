@@ -65,31 +65,110 @@ const RecomendedGames = () => {
                rounded-lg relative"
                 style={game1Cover}
               >
-                <img
+                <div className="bg-black/30 h-full w-full rounded-lg">
+                  <div className="absolute bottom-0 left-0 w-full ">
+                    <div
+                      className="
+                   flex justify-center items-center gap-4 
+                   bg-gradient-to-t from-primary to-transparent"
+                    >
+                      <div className="">
+                        <img
+                          className="h-[135px]
+                        min-w-[106px] object-cover rounded-tr-lg rounded-bl-lg "
+                          src={Game5}
+                          alt="EAFC"
+                        />
+                      </div>
+                      <div className="">
+                        <h1 className="font-semibold  ">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Quisque rhoncus semper semper. Quisque rhoncus
+                          semper semper.
+                        </h1>
+                        <p className="text-sm text-white/80">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Lorem ipsum dolor sit amet, consectetur
+                          adipiscing elit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* //* image */}
+                  {/* <img
                   className="absolute left-0 bottom-0 h-[135px]
                    w-[100px] object-cover rounded-tr-md"
                   src={Game5}
-                />
+                /> */}
+                </div>
               </div>
+
               <div
                 className="sm:row-span-1 rounded-lg relative"
                 style={game2Cover}
               >
-                {/*//*  image */}
-                <img
+                <div className="bg-black/30 h-full w-full rounded-lg">
+                  <div className="absolute bottom-0 left-0 w-full ">
+                    <div
+                      className="
+                   flex justify-center items-center gap-4
+                   bg-gradient-to-t from-primary to-transparent"
+                    >
+                      <div className="">
+                        <img
+                          className="h-[110px]
+                        min-w-[80px] object-cover rounded-tr-lg rounded-bl-lg"
+                          src={Game3}
+                          alt="AC_Origins"
+                        />
+                      </div>
+                      <div className="">
+                        <h1 className="font-semibold  ">
+                          Lorem ipsum dolor sit amet, elit. dolor sit
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                  {/*//*  image */}
+                  {/* <img
                   className="absolute left-0 bottom-0 h-[90px]  object-cover rounded-tr-md"
                   src={Game3}
-                />
+                /> */}
+                </div>
               </div>
               <div
                 className="sm:row-span-1 rounded-lg relative"
                 style={game3Cover}
               >
-                {/*//*  image */}
-                <img
+                <div className="bg-black/30 h-full w-full rounded-lg">
+                  <div className="absolute bottom-0 left-0 w-full ">
+                    <div
+                      className="
+                   flex justify-center items-center gap-4
+                   bg-gradient-to-t from-primary to-transparent"
+                    >
+                      <div className="">
+                        <img
+                          className="h-[110px]
+                        min-w-[80px] object-cover rounded-tr-lg rounded-bl-lg"
+                          src={Game6}
+                          alt="COD_MW2"
+                        />
+                      </div>
+                      <div className="">
+                        <h1 className="font-semibold  ">
+                          Lorem ipsum dolor sit amet, Quisque elit
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                  {/*//*  image */}
+                  {/* <img
                   className="absolute left-0 bottom-0 h-[90px]  object-cover rounded-tr-md"
                   src={Game6}
-                />
+                /> */}
+                </div>
               </div>
             </div>
           </div>
