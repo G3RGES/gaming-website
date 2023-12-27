@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrendingGames from "./components/TrendingGames";
 import RecomendedGames from "./components/RecomendedGames";
+import WhatsNew from "./components/WhatsNew";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Hero />
         <TrendingGames />
         <RecomendedGames />
+        <WhatsNew />
       </div>
     </>
   );
