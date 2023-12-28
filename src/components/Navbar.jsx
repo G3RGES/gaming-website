@@ -3,6 +3,7 @@ import React from "react";
 
 // logo
 import Logo from "../assets/logo.png";
+import LogoPng from "../assets/android-chrome-192x192.png";
 
 // react-icons
 import { IoSearch } from "react-icons/io5";
@@ -15,7 +16,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <div className="flex gap-2 items-center">
               <a href="" className="">
-                <img className="w-16" src={Logo} alt="logo" />
+                <img className="w-16" src={LogoPng} alt="logo" />
               </a>
               {/* //* made to create a seperator */}
               <div className="border-r-2 border-tertiary text-transparent ">
