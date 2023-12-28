@@ -61,7 +61,7 @@ const TrendingGames = () => {
             </h1>
             <button
               className="bg-gray-400/50 text-white
-             rounded-xl py-3 px-4 font-semibold"
+             rounded-xl py-2 px-3 font-semibold"
             >
               View All
             </button>
