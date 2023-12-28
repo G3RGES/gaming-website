@@ -16,14 +16,14 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <div className="flex gap-2 items-center">
               <a href="" className="">
-                <img className="w-16" src={LogoPng} alt="logo" />
+                <img className="w-10" src={LogoPng} alt="logo" />
               </a>
               {/* //* made to create a seperator */}
               <div className="border-r-2 border-tertiary text-transparent ">
                 {"|||"}
               </div>
 
-              <div className="text-white flex ">
+              <div className="text-white flex my-2">
                 <ul className="flex gap-5 items-center">
                   <li className="">
                     <a className="" href="#/explore">
