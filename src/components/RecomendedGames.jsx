@@ -49,7 +49,7 @@ const RecomendedGames = () => {
             <h1 className=" font-bold text-2xl">Recomended Articles</h1>
             <button
               className="bg-gray-400/50 text-white
-            rounded-xl py-3 px-4 font-semibold z-10"
+            rounded-xl py-2 px-3 font-semibold z-10"
             >
               View All
             </button>
