@@ -10,7 +10,7 @@ import { IoSearch } from "react-icons/io5";
 const Navbar = () => {
   return (
     <>
-      <div className="bg-primary">
+      <div className="bg-primary ">
         <div className="container">
           <div className="flex justify-between items-center">
             <div className="flex gap-2 items-center">
